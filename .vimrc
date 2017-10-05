@@ -5,6 +5,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'powerline/powerline',{'rtp': 'powerline/bindings/vim/'}
+Plugin 'c.vim'
 
 call vundle#end()
 filetype plugin indent on
