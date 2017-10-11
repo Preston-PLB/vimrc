@@ -21,3 +21,4 @@ set laststatus=2
 "Key Bindings
 map <Enter> o<Esc>
 map <S-Enter> O<Esc>
+map <C-E> $
