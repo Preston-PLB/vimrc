@@ -6,6 +6,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'powerline/powerline',{'rtp': 'powerline/bindings/vim/'}
 Plugin 'c.vim'
+Plugin 'arrufat/vala.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -22,3 +23,12 @@ set laststatus=2
 map <Enter> o<Esc>
 map <S-Enter> O<Esc>
 map <C-E> $
+"Because WASD FTW!
+map a h
+map s j
+map d l
+map w k
+
+
+
+
