@@ -1,16 +1,8 @@
 set nocompatible
+
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'powerline/powerline',{'rtp': 'powerline/bindings/vim/'}
-Plugin 'c.vim'
-Plugin 'arrufat/vala.vim'
-
-call vundle#end()
-
 filetype plugin indent on
+
 syntax enable
 set hidden
 set history=100
@@ -26,13 +18,13 @@ nmap <S-Enter> O<Esc>
 nmap <C-E> $
 "Because WASD FTW!
 
-nnoremap h a
-nnoremap j s
-nnoremap k w
-nnoremap l d 
-nmap a <Left>
-nmap s <Down>
-nmap d <Right>
-nmap w <Up>
+noremap h a
+noremap j s
+noremap k w
+noremap l d 
+map a <Left>
+map s <Down>
+map d <Right>
+map w <Up>
 
 
