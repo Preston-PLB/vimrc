@@ -1,16 +1,8 @@
 set nocompatible
+
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'powerline/powerline',{'rtp': 'powerline/bindings/vim/'}
-Plugin 'c.vim'
-Plugin 'arrufat/vala.vim'
-
-call vundle#end()
-
 filetype plugin indent on
+
 syntax enable
 set hidden
 set history=100
