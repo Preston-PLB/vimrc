@@ -16,8 +16,10 @@ set laststatus=2
 nmap <Enter> o<Esc>
 nmap <S-Enter> O<Esc>
 nmap <C-E> $
-"Because WASD FTW!
+nmap <C>" i""<Esc>
+noremap <silent><C-S> :update<cr>
 
+"Because WASD FTW!
 noremap h a
 noremap j s
 noremap k w
