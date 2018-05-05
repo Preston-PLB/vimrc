@@ -24,8 +24,8 @@ set laststatus=2
 nmap <Enter> o<Esc>
 nmap <S-Enter> O<Esc>
 nmap <C-E> $
-"Because WASD FTW!
 
+"Because WASD FTW!
 nnoremap h a
 nnoremap j s
 nnoremap k w
