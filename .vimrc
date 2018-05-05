@@ -11,6 +11,7 @@ map rr :source ~/.vimrc
 filetype plugin on
 set laststatus=2
 
+"this comment is useless
 
 "Key Bindings
 nmap <Enter> o<Esc>
