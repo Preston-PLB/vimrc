@@ -11,7 +11,6 @@ map rr :source ~/.vimrc
 filetype plugin on
 set laststatus=2
 
-
 "Key Bindings
 nmap <Enter> o<Esc>
 nmap <S-Enter> O<Esc>
@@ -28,17 +27,3 @@ map a <Left>
 map s <Down>
 map d <Right>
 map w <Up>
-
-
-"Because WASD FTW!
-nnoremap h a
-nnoremap j s
-nnoremap k w
-nnoremap l d 
-nmap a <Left>
-nmap s <Down>
-nmap d <Right>
-nmap w <Up>
-
-
-
