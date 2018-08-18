@@ -1,4 +1,5 @@
 set nocompatible
+set autowrite
 
 filetype off
 
@@ -7,8 +8,6 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'fatih/vim-go'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 
 call vundle#end()
 
@@ -25,6 +24,10 @@ set laststatus=2
 nmap <Enter> o<Esc>
 nmap <S-Enter> O<Esc>
 nmap <C-E> $
+nmap <C-n> :cnext<Enter>
+nmap <C-m> :cprevious<Enter>
+nmap <C-b> :GoBuild<Enter>
+nmap <C-r> :GoRun<Enter>
 
 "Because WASD FTW!
 noremap h a
