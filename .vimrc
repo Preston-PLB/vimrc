@@ -18,3 +18,4 @@ nmap <Enter> o<Esc>
 nmap <S-Enter> O<Esc>
 nmap <C-E> $
 
+map <f5> :w <CR> :!clear && make<CR>
