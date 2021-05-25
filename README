@@ -1,3 +1,7 @@
 # My Vimrc
 
 This repository is where I keep my vimrc
+
+To install on your own, run the install.sh script to automatically create sym links in your home directory.
+I use sym links so whenever pulls or commits are made the configs are auto-magically update
+use the -f option with install.sh to remove the previous file and create a new link
